@@ -6,7 +6,7 @@ this function gets the length and calculates the area of a three or four side sh
     if D==0:
         p=(A+B+C)/2
         print ((p*(p-A)*(p-B)*(p-C))**0.5)
-    if D!=0:
+    else:
         pABDi=(A+B+Di)/2
         pCDDi=(C+D+Di)/2
         Area1=((pABDi*(pABDi-A)*(pABDi-B)*(pABDi-Di))**0.5)
