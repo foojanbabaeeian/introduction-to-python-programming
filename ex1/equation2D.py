@@ -1,5 +1,5 @@
 def equation2D (a,b,c):
-    '''int :::> float
+    '''int :::> none
 this function gets a,b,c of a quadratic equation formula , and calculates the roots . if there is none :::> none ,and if there is one :::> x1=x2=the number'''
     delta=(b**2)-(4*a*c)
     x1=(-b+(delta**0.5))/2*a
